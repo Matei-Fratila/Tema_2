@@ -1,0 +1,7 @@
+version: "2.3"
+services:
+ springboot.app:
+   container_name: compose-docker
+   image: docker-spring-boot
+   ports:
+    ["8080:8080"]
